@@ -1,6 +1,6 @@
 #! /opt/perl/bin/perl 
 use File::Basename qw(dirname);
-use Cwd  qw(abs_path);
+use Cwd qw(abs_path);
 use lib '/home/cg/root';
 
 use My::dna qw(dna_produce);
